@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { PasswordInputComponent } from './password-input/password-input.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { SectionsComponent } from './sections/sections.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PasswordInputComponent
+    PasswordInputComponent,
+    SectionsComponent
   ],
   imports: [
     BrowserModule,
